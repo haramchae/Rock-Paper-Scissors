@@ -45,7 +45,6 @@ void Score() {
 
 
 int main() {
-
 	int num, check = 1, cNum;
 
 	cout << "####################" << "\n";
@@ -59,7 +58,6 @@ int main() {
 	while (check) {
 		cout << "-> ";
 		cin >> num;
-		//cout << "\n";
 
 		switch (num) {
 			case 0:
@@ -87,9 +85,6 @@ int main() {
 				cout << "Choose the right number to play game" << "\n";
 				break;
 		}
-
-
 	}
-
 	return 0;
 }
